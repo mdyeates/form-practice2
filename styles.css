@@ -1,0 +1,70 @@
+body {
+    background-color: whitesmoke;
+    font-family: helvetica;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10%;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+    max-width: 400px;
+
+}
+
+p {
+    color: grey;
+    margin-top: -5px;
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    padding: 10px;
+}
+
+.personal label {
+    padding: 5px;
+}
+
+.personal input {
+    padding: 10px;
+    display: flex;
+    width: 250px;
+}
+
+.button input {
+    appearance: none;
+    padding: 10px 50px;
+    border: solid 1px grey;
+    font-size: 20px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.experience {
+    color: grey;
+    max-width: 80%;
+    text-align: center;
+}
+
+.experience select {
+    padding: 5px;
+}
+
+.image {
+    border-radius: 20px;
+    border: solid 1px grey;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bootcamp Form</title>
+</head>
+
+<body>
+
+    <form action="">
+        <img class="image" src="https://api.lorem.space/image/watch?w=50&h=50
+       " alt="placeholder">
+        <h1>Bootcamp</h1>
+
+        <p><strong>Thank you</strong> for taking the time to fill in this form</p>
+
+
+        <section class="personal">
+            <label for="first-name"><input type="text" name="first-name" id="first-name" placeholder="First name*"
+                    required></label>
+            <label for="last-name"><input type="text" name="second-name" id="second-name" placeholder="Last name*"
+                    required></label>
+            <label for="email"><input type="email" name="email" id="email" placeholder="Email Address*"
+                    required></label>
+            <label for="phone"><input type="text" name="phone" id="phone" placeholder="+00 000-000-0000"></label>
+        </section>
+
+        <section class="experience">
+            <label for="experience">How would you rate your overall experience?
+                <br><br>
+                <select name="experience" id="experience">
+                    <option value="">(Select one)</option>
+                    <option value="1">1 (Poor)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Amazing)</option>
+                </select>
+            </label>
+        </section>
+
+        <section class="comments">
+            <label for="comments">
+                <textarea name="comments" id="comments" cols="35" rows="5"
+                    placeholder="Add any comments here..."></textarea>
+            </label>
+        </section>
+
+        <section class="button">
+            <input type="submit" value="Submit">
+        </section>
+
+    </form>
+
+
+</body>
+
+</html>
